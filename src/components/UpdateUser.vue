@@ -23,7 +23,7 @@
                 <div class="form-group">
                     <input type="password" class="form-control" placeholder="Parola tekrar">
                 </div>
-                <button type="submit" class="btn btn-block btn-success">Kayıt</button>
+                <button type="submit" class="btn btn-block btn-warning">Güncelle</button>
                 <router-link to='/' tag='button' class='btn btn-block btn-danger'>İptal</router-link>
             </fieldset>
         </form>

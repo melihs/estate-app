@@ -16,6 +16,7 @@
                     <User v-for="index in 10" :key="index" />
                 </tbody>
             </table>
+            <router-link to='/create' tag='button' class='btn btn-success float-right'>ekle</router-link>
         </div>
     </div>
 </template>
