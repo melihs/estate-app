@@ -5,6 +5,7 @@
 ## Libraries in the Project
 - axios
 - vue-router
+- vuex
 ## Build Setup
 
 ``` bash
