@@ -1,23 +1,24 @@
 <template>
   <div class="container mt-4">
       <h1 class="text-center mb-4">Iceberg Emlak Randevu Uygulaması</h1>
-      <!--<Login/>-->
-      <!--<Users/>-->
-      <NewUser/>
-      <!--<Cms/>-->
+      <router-view></router-view>
   </div>
 </template>
 <script>
-    import Login from "./pages/Login"
+    import Login from "./components/Login"
     import Cms from "./pages/Cms"
     import NewUser from "./components/NewUser"
+    import UpdateUser from "./components/UpdateUser"
     import Users from "./components/ListUser/Users"
+    // import Notfound from "./components/Notfound"
     export default {
         components : {
             NewUser,
             Users,
+            UpdateUser,
             Login,
-            Cms
+            Cms,
+            // Notfound
         }
     }
 
