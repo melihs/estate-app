@@ -7,6 +7,7 @@
             </div>
             <h2>Sayfa Bulunamadı</h2>
             <p></p>
+            <router-link to='/cms' tag='button' class='btn btn-block btn-dark'><< Anasayfa</router-link>
         </div>
     </div>
 </template>

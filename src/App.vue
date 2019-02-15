@@ -5,23 +5,6 @@
   </div>
 </template>
 <script>
-    import Login from "./components/Login"
-    import Cms from "./pages/Cms"
-    import NewUser from "./components/NewUser"
-    import UpdateUser from "./components/UpdateUser"
-    import Users from "./components/ListUser/Users"
-    // import Notfound from "./components/Notfound"
-    export default {
-        components : {
-            NewUser,
-            Users,
-            UpdateUser,
-            Login,
-            Cms,
-            // Notfound
-        }
-    }
-
     // import axios from 'axios'
     // export default {
     //     data() {
